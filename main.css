@@ -72,8 +72,7 @@ html, body {
 
 .main {
   height: auto;
-  width: 80%;
-  padding: 1rem;
+  width: 85%;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -89,7 +88,7 @@ html, body {
 
 .experience-interest {
   height: auto;
-  width: 36rem;
+  width: 35rem;
   /*background-color: red;*/
   margin: 0.5rem auto;
 }
@@ -98,7 +97,7 @@ html, body {
 .experience h5::before {
   display: block;
   content: "";
-  background-color: #000;
+  background-color: #a2a9b1;
   height: 1px;
   width: 100%;
   margin: .5rem auto;
@@ -108,7 +107,7 @@ html, body {
 .about h5::before {
   display: block;
   content: "";
-  background-color: #000;
+  background-color: #a2a9b1;
   height: 1px;
   width: 100%;
   margin: .5rem auto;
@@ -118,7 +117,7 @@ html, body {
 .skills h5::before {
   display: block;
   content: "";
-  background-color: #000;
+  background-color: #a2a9b1;
   height: 1px;
   width: 100%;
   margin: .5rem auto;
@@ -128,7 +127,7 @@ html, body {
 .education h5::before {
   display: block;
   content: "";
-  background-color: #000;
+  background-color: #a2a9b1;
   height: 1px;
   width: 100%;
   margin: .5rem auto;
@@ -138,7 +137,7 @@ html, body {
 .interest h5::before {
   display: block;
   content: "";
-  background-color: #000;
+  background-color: #a2a9b1;
   height: 1px;
   width: 100%;
   margin: .5rem auto;
@@ -158,17 +157,37 @@ html, body {
   margin: 0.5rem;
 }
 
+
 .content-wrapper {
   height: auto;
   width: 95%;
-  margin: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.info {
+  height: auto;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.box {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 h5 {
   font-size: 1.2rem;
+  color: #a2a9b1;
 }
 
 h6 {
@@ -178,4 +197,16 @@ h6 {
 
 p {
   font-size: 0.8rem;
+  line-height: 1.6rem;
+}
+
+.button a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.button {
+  padding: 0.5rem;
+  background-color: #56aadf;
+  border-radius: 10px;
 }
